@@ -1,0 +1,48 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.wordSeach{
+    display: inline-block;
+    margin-top: 20px;
+
+    user-select: none;
+}
+
+.wordSeach table{
+    border-collapse: collapse;
+    margin: auto;
+}
+
+.wordSeach td{
+    width: 30px;
+    height: 30px;
+    border: 1px solid  #000;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.highlight{
+    background-color: #eca6e1;
+}
+
+.found{
+    background-color: lightgreen;
+}
+
+.words{
+    margin-top: 20px;
+}
+
+.word{
+    display: inline-block;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.found-word{
+    text-decoration: line-through;
+    color: green;
+}
